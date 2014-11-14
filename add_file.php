@@ -1,4 +1,4 @@
-<!-- II: Agregar el archivo a la base de datos -->
+<!-- II: Agregar el archivo a la base de datos ...-->
 <?php
     if(isset($_FILES['uploaded_file'])) {                                // Verificar que un archivo ha sido subido
         if($_FILES['uploaded_file']['error'] == 0) {                     // Asegura que el archivo fue enviado sin errores al servidor
